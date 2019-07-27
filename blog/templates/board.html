@@ -68,7 +68,7 @@
                     <li class="list-group-item">{{blog.pub_date}} {{blog.genre}} {{blog.rating}} {{blog.save_date}} {{blog.body}}</li>
                 </ul>
                 <div class="card-body">
-                    <a href='{% url "detail" blog.id %}' class="card-link"><button type="button" class="btn btn-danger btn-block">자세히 보기</button></a>
+                    <a href class="card-link"><button type="button" class="btn btn-danger btn-block">자세히 보기</button></a>
                 </div>
             </div>
             {% endfor %}
